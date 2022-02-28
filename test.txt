@@ -1,0 +1,14 @@
+test.txt
+1 한글이 맑은 고딕체 설정 : ctrl + , 설정 바로가기 , 맑은고딕체Malgun Gothic
+2 창닫기 : ctrl + F4 
+3 명령팔레트 : 특정 기능 메뉴를 빨리 찾아 실행하기 ctrl + shift + p
+
+git 기본명령어 --- 복습 ---
+git init
+git add
+git commit
+git remote add
+git push
+
+SCM에서
+파일 옆에 u : unstaging -> + 버튼클릭 -> A : add, staging -> 메시지 입력 ctrl + enter는 Z커밋  : M
