@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day02_Table(표)</title>
+</head>
+<style>
+   
+    th,td{      /* 셀렉터로 여러개의 태그를 지정*/
+        padding: 10px ;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    /* 문제 : 회원이름에 글꼴 색상을 brown으로 합니다.(class 속성 활용) */
+    td.name {
+        font-weight: bold;
+    }
+table {
+    text-align: center;
+}
+</style>
+<body>
+    <!-- 표를 만들어주는 table 태그
+                : 표의 제목 행 : th
+                : 행(row)  tr 태그
+                : 컬럼 td태그
+
+     -->
+     <table style="width:70%; margin: auto;">
+     <caption style="font-size: 30px;">회원 목록 조회</caption>
+         <tr>   <!-- 첫번째 행  : 제목행 (가운데 정렬)-->
+             <th style="width:12%">회원번호</th>      <!-- 4개의 칸(열)-->
+             <th style="width:12%">회원성명</th>
+             <th style="width:15%">전화번호</th>
+             <th style="width:25%">주소</th>
+             <th style="width: 12%;">가입일자</th>
+             <th style="width: 12%;">고객등급</th>
+             <th style="width:  12%;">거주지역</th>
+            </tr>
+            <tr>
+             <td>1</td>
+             <td class="name">김행복</td>
+             <td>010-1111-2222</td>
+             <td>서울시 동대문구 휘경동</td>
+             <td>2015-12-02</td>
+             <td>VIP</td>
+             <td>01</td>
+         </tr>
+            <tr>
+             <td>2</td>
+             <td class="name">이축복</td>
+             <td>010-1111-3333</td>
+             <td>서울시 동대문구 휘경동</td>
+             <td>2015-12-06</td>
+             <td>일반</td>
+             <td>01</td>
+         </tr>
+            <tr>
+             <td>3</td>
+             <td class="name">장믿음</td>
+             <td>010-1111-4444</td>
+             <td>울릉군 울릉읍 독도1리</td>
+             <td>2015-10-01</td>
+             <td>일반</td>
+             <td>30</td>
+         </tr>
+            <tr>
+             <td>4</td>
+             <td class="name">최사랑</td>
+             <td>010-1111-5555</td>
+             <td>울릉군 울릉읍 독도2리</td>
+             <td>2015-11-13</td>
+             <td>VIP</td>
+             <td>30</td>
+         </tr>
+            <tr>
+             <td>5</td>
+             <td class="name">진평화</td>
+             <td>010-1111-6666</td>
+             <td>제주도 제주시 외나무골</td>
+             <td>2015-12-25</td>
+             <td>일반</td>
+             <td>60</td>
+         </tr>
+            <tr>
+             <td>6</td>
+             <td class="name">차공단</td>
+             <td>010-1111-7777</td>
+             <td>제주도 제주시 감나무골</td>
+             <td>2015-12-11</td>
+             <td>직원</td>
+             <td>60</td>
+         </tr>
+     </table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    padding: 0px;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+
+.container {
+    background-color: brown;
+    width: 100%;
+    padding: 12px 15px;
+    top:0px;
+}
+
+.container > li {   /* .container 클래스  요소의 자식태그 li */
+
+}
